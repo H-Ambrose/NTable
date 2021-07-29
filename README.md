@@ -12,19 +12,19 @@ NTable-ori is made up of 2.1k+ images taken by different cameras and mobile phon
 <table align="center">
    <tr>
       <td>category </td>
-      <td colspan = "3">source </td>
-      <td colspan = "3">shape</td>
+      <td colspan = "3" align="center">source </td>
+      <td colspan = "3" align="center">shape</td>
    </tr>
    <tr>
       <td> subcategory </td>
-      <td>textual </td>
-      <td>electronic</td>
+      <td> textual </td>
+      <td> electronic </td>
       <td> wild </td>
-      <td>upright</td>
+      <td> upright </td>
       <td> oblique </td>
       <td>distorted </td>
    </tr>
-   <tr>
+   <tr align="center">
       <td># of pages </td>
       <td>1674</td>
       <td>254</td>
