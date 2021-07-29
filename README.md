@@ -81,7 +81,7 @@ Table 2. Classification results of the new images.
 </table>
 
 ## Annotation format
-The annotation files follows the format of YOLO, [x, y, w, h] determines a bounding box, (x, y) is the coordinate of the center of the bounding box, w and h is the normalized width and height of the bounding box, where w is $\frac{width of the bbox}{width of the image}$,  h is $\frac{height of the bbox}{height of the image}$. 
+The annotation files follows the format of YOLO, [x, y, w, h] determines a bounding box, (x, y) is the coordinate of the center of the bounding box, w and h is the normalized width and height of the bounding box, where w is $$\frac{width of the bbox}{width of the image}$$,  h is $$\frac{height of the bbox}{height of the image}$$. 
 
 ## Examples
 
