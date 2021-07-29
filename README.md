@@ -83,11 +83,14 @@ Table 2. Classification results of the new images.
 </table>
  
 ## Annotation format
-The annotation files follows the format of YOLO, [x, y, w, h] determines a bounding box, (x, y) is the coordinate of the center of the bounding box, w and h is the normalized width and height of the bounding box, where w is,  h is ![](http://latex.codecogs.com/gif.latex?\\h=\frac{height of the bbox}{height of the image}). 
-  
- ![](http://latex.codecogs.com/gif.latex?\\w=\frac{width of the bbox}{width of the image})
- 
- 
+The annotation files follows the format of YOLO, [x, y, w, h] determines a bounding box, (x, y) is the coordinate of the center of the bounding box, w and h is the normalized width and height of the bounding box, where w is the width of the bbox divided by the width of the image,  h is the height of the bbox divided by the height of the image.
+
+## Add new images
+We provide the code to add new images into NTable. Here are the steps to enlarge NTable:
+emsp;&emsp; 1. Use [Labelme](https://github.com/wkentaro/labelme) to annotate the images, it will generate a json file for every image. 
+emsp;&emsp; 2. Put the images and annotations into ./orimage
+emsp;&emsp; 3. Run anno_aug.py, it will separately append the original images, the augmented images and the corresponding annotations into ./NTable-ori and ./NTable-cam
+
 ## Examples
 
 ## Note
