@@ -83,9 +83,9 @@ Table 2. Classification results of the new images.
 </table>
  
 ## Annotation format
-The annotation files follows the format of YOLO, [x, y, w, h] determines a bounding box, (x, y) is the coordinate of the center of the bounding box, w and h is the normalized width and height of the bounding box, where w is $$\frac{width of the bbox}{width of the image}$$,  h is $$\frac{height of the bbox}{height of the image}$$. 
+The annotation files follows the format of YOLO, [x, y, w, h] determines a bounding box, (x, y) is the coordinate of the center of the bounding box, w and h is the normalized width and height of the bounding box, where w is ![](http://latex.codecogs.com/gif.latex?\\\frac{width of the bbox}{width of the image}),  h is ![](http://latex.codecogs.com/gif.latex?\\\frac{height of the bbox}{height of the image}). 
   
-![](http://latex.codecogs.com/gif.latex?\\sigma=\sqrt{\frac{1}{n}{\sum_{k=1}^n(x_i-\bar{x})^2}})
+
  
  
 ## Examples
