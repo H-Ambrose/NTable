@@ -12,12 +12,8 @@ NTable-ori is made up of 2.1k+ images taken by different cameras and mobile phon
 <table>
    <tr>
       <td>category </td>
-      <td>source </td>
-      <td></td>
-      <td></td>
-      <td>shape</td>
-      <td></td>
-      <td></td>
+      <td colspan = "3">source </td>
+      <td colspan = "3">shape</td>
    </tr>
    <tr>
       <td> subcategory </td>
@@ -36,9 +32,6 @@ NTable-ori is made up of 2.1k+ images taken by different cameras and mobile phon
       <td>758</td>
       <td>421</td>
       <td>947</td>
-   </tr>
-   <tr>
-      <td></td>
    </tr>
 </table>
 
