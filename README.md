@@ -9,7 +9,7 @@ Most of the existing table detection methods are designed for scanned document i
 ## Description
 NTable-ori is made up of 2.1k+ images taken by different cameras and mobile phones. We provide two classification methods, one is based on the source, the other is based on the shape (see Examples). According to the source, NTable-ori can be divided into textual, electronic and wild. According to the shape, NTable-ori can be divided into upright, oblique and distorted. Table 1 counts the classification results.
 
-<table>
+<table align="center">
    <tr>
       <td>category </td>
       <td colspan = "3">source </td>
