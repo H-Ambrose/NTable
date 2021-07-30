@@ -95,8 +95,11 @@ We provide the code to add new images into NTable. Here are the steps to enlarge
 3. Run anno_aug.py, it will separately append the original images, the augmented images and the corresponding annotations into ./NTable-ori and ./NTable-cam
 
 ## Examples
-![alt text](./examples/automatic_annotation_2.png)
 ![alt text](./examples/images_sample.png)
+  
+  
+  
+![alt text](./examples/automatic_annotation_2.png)
 
 ## Note
 1. The classification is subjective. For example, you may find some tables that have been classified as 'upright' also have some slight deformation or tilts.
