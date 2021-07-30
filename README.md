@@ -73,15 +73,15 @@ Table 2. Classification results of the new images.
    </tr>
    <tr align="center">
       <td># of pages </td>
-      <td>1674</td>
-      <td>254</td>
-      <td>198</td>
-      <td>758</td>
-      <td>421</td>
-      <td>947</td>
+      <td>285</td>
+      <td>195</td>
+      <td>484</td>
+      <td>396</td>
+      <td>221</td>
+      <td>347</td>
    </tr>
 </table>
- 
+
 ## Annotation format
 The annotation files follows the format of YOLO, [x, y, w, h] determines a bounding box, (x, y) is the coordinate of the center of the bounding box, w and h is the normalized width and height of the bounding box, where w is the width of the bbox divided by the width of the image,  h is the height of the bbox divided by the height of the image.
 
@@ -94,9 +94,85 @@ We provide the code to add new images into NTable. Here are the steps to enlarge
 ## Examples
 
 ## Note
-1. This classification is 主观的, 例如 you may find some 被分类为upright的 tables 有一些轻微的变形或倾斜
-2. 我们的论文中的表格出现了一些笔误, 以下为正确表格:
-3. 
+1. The classification is subjective. For example, you may find some tables that have been classified as 'upright' also have some slight deformation or tilts.
+2. There are some clerical errors in the tables in our paper. The correct tables are as follows:
+<div align="center">
+Table 3. Statistics of training, validation and test sets in NTable.
+</div>
+<table align="center">
+   <tr>
+      <td></td>
+      <td>training</td>
+      <td>validation</td>
+      <td>test</td>
+   </tr>
+   <tr>
+      <td>NTable-cam</td>
+      <td>11904</td>
+      <td>1696</td>
+      <td>3408</td>
+   </tr>
+   <tr>
+      <td>NTable-gen</td>
+      <td>11984</td>
+      <td>1712</td>
+      <td>3424</td>
+   </tr>
+   <tr>
+      <td>total</td>
+      <td>23888</td>
+      <td>3408</td>
+      <td>6832</td>
+   </tr>
+</table>
+
+<div align="center">
+Table 4. Statistics of each category and subcategory in NTable-cam.
+</div>
+<table align="center">
+   <tr>
+      <td rowspan = "2"></td>
+      <td colspan = "3">source</td>
+      <td colspan = "3">shape</td>
+   </tr>
+   <tr>
+      <td>textual</td>
+      <td>electronic</td>
+      <td>wild</td>
+      <td>upright</td>
+      <td>oblique</td>
+      <td>distorted</td>
+   </tr>
+   <tr>
+      <td>train</td>
+      <td>7152</td>
+      <td>1336</td>
+      <td>3416</td>
+      <td>3072</td>
+      <td>2136</td>
+      <td>6696</td>
+   </tr>
+   <tr>
+      <td>validation</td>
+      <td>944</td>
+      <td>200</td>
+      <td>552</td>
+      <td>464</td>
+      <td>304</td>
+      <td>928</td>
+   </tr>
+   <tr>
+      <td>test</td>
+      <td>2064</td>
+      <td>288</td>
+      <td>1056</td>
+      <td>912</td>
+      <td>600</td>
+      <td>1896</td>
+   </tr>
+</table>
+ 
+4. 
 
 
 ## Acknowledgement
