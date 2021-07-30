@@ -1,0 +1,15 @@
+{"author": "clatter",
+"information":
+[{"imgid": 0,
+  "filename": "ics_26_4.jpg",
+  "split": "val",
+  "source": "textual",
+  "shape": "distorted",
+  "anno": ["0 0.5450496453900708 0.6752553191489361 0.7390070921985813 0.18829787234042555"]},
+{"imgid": 184,
+  "filename": "parents_49_7.jpg",
+  "split": "val",
+  "source": "textual",
+  "shape": "oblique",
+  "anno": ["0 0.4776636600494385 0.45009897020128037 0.686957327524821 0.7448178609212239"]}]
+}
