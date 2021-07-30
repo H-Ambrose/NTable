@@ -45,13 +45,16 @@ Table 1. Classification results of NTable-ori.
 
 ## Get data
 NTable-gen:
-Link 1 (Google Drive), Link 2 (Baidu Disk)
+[Link 1 (Google Drive)](https://drive.google.com/drive/folders/15WgiBtpJZLAL3bOXC7ALHPw7fHxHfa7d?usp=sharing),
+Link 2 (Baidu Disk)
  
 The original NTable-ori and NTable-cam:
-Link 1 (Google Drive), Link 2 (Baidu Disk)
+[Link 1 (Google Drive)](https://drive.google.com/drive/folders/1tcuPwuRK4pzm7NRJj_u9d6foyFduvAs3?usp=sharing),
+Link 2 (Baidu Disk)
  
-We collected 607 new images, including 1000 tables. The statistics are shown in Table 2. Download link：
-Link 1 (Google Drive), Link 2 (Baidu Disk)
+We collected 607 new images, including 1000 tables. The statistics are shown in Table 2. Download link of the updated NTable-ori and NTable-cam：
+[Link 1 (Google Drive)](https://drive.google.com/drive/folders/1OBhJMswdc3DTxDQg7axcT3qkeXUCqgaF?usp=sharing),
+Link 2 (Baidu Disk)
  
 <div align="center">
 Table 2. Classification results of the new images.
