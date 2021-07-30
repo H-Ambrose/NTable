@@ -172,7 +172,5 @@ Table 4. Statistics of each category and subcategory in NTable-cam.
    </tr>
 </table>
  
-4. 
-
-
 ## Acknowledgement
+I would like to thank [@Jotaro-Kujo](https://github.com/Jotaro-Kujo), Zhang Meiqing and Zhu Chaowen. In the process of collecting data, they offered great help. 
