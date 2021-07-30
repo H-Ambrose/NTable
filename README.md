@@ -100,25 +100,25 @@ We provide the code to add new images into NTable. Here are the steps to enlarge
 Table 3. Statistics of training, validation and test sets in NTable.
 </div>
 <table align="center">
-   <tr>
+   <tr align="center">
       <td></td>
       <td>training</td>
       <td>validation</td>
       <td>test</td>
    </tr>
-   <tr>
+   <tr align="center">
       <td>NTable-cam</td>
       <td>11904</td>
       <td>1696</td>
       <td>3408</td>
    </tr>
-   <tr>
+   <tr align="center">
       <td>NTable-gen</td>
       <td>11984</td>
       <td>1712</td>
       <td>3424</td>
    </tr>
-   <tr>
+   <tr align="center">
       <td>total</td>
       <td>23888</td>
       <td>3408</td>
@@ -130,12 +130,12 @@ Table 3. Statistics of training, validation and test sets in NTable.
 Table 4. Statistics of each category and subcategory in NTable-cam.
 </div>
 <table align="center">
-   <tr>
+   <tr align="center">
       <td rowspan = "2"></td>
       <td colspan = "3">source</td>
       <td colspan = "3">shape</td>
    </tr>
-   <tr>
+   <tr align="center">
       <td>textual</td>
       <td>electronic</td>
       <td>wild</td>
@@ -143,7 +143,7 @@ Table 4. Statistics of each category and subcategory in NTable-cam.
       <td>oblique</td>
       <td>distorted</td>
    </tr>
-   <tr>
+   <tr align="center">
       <td>train</td>
       <td>7152</td>
       <td>1336</td>
@@ -152,7 +152,7 @@ Table 4. Statistics of each category and subcategory in NTable-cam.
       <td>2136</td>
       <td>6696</td>
    </tr>
-   <tr>
+   <tr align="center">
       <td>validation</td>
       <td>944</td>
       <td>200</td>
@@ -161,7 +161,7 @@ Table 4. Statistics of each category and subcategory in NTable-cam.
       <td>304</td>
       <td>928</td>
    </tr>
-   <tr>
+   <tr align="center">
       <td>test</td>
       <td>2064</td>
       <td>288</td>
